@@ -1,0 +1,161 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Lora&display=swap');
+
+/* Apply box-sizing globally to include padding and borders in element widths */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    overflow-x: hidden; /* Fallback to prevent horizontal scrolling */
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Lora', serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #34495e;
+    border-radius: 5px;
+}
+
+main {
+    max-width: 900px; /* Increased to accommodate two columns */
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+}
+
+.container {
+    flex: 2; /* Left column takes up more space */
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden; /* Ensure content stays within card */
+}
+
+.card-header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.card img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.card p {
+    padding: 0 1rem 1rem;
+	text-align: left;
+}
+
+/* Add spacing between sections within the combined card */
+.card > .card-header + img {
+    padding-top: 0; /* Remove extra padding after the first header */
+}
+
+.card > .card-header:not(:first-child) {
+    margin-top: 1rem; /* Add space between headers within the same card */
+}
+
+.resources {
+    flex: 1; /* Right column takes up less space */
+    background-color: white; /* Changed to white to match other cards */
+    color: #333; /* Reset text color to match body */
+}
+
+.resources .card-header {
+    background-color: #2c3e50; /* Match other card headers */
+    color: white;
+}
+
+.resources ul {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.resources li {
+    margin: 0.5rem 0;
+}
+
+.resources a {
+    color: #2c3e50; /* Dark blue links to match header */
+    text-decoration: none;
+}
+
+.resources a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #2c3e50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .container,
+    .resources {
+        flex: none;
+        width: 100%;
+    }
+
+    .card img {
+        max-width: 100%;
+    }
+
+    .card > .card-header:not(:first-child) {
+        margin-top: 0.5rem; /* Reduce spacing on mobile */
+    }
+}
