@@ -1,61 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This page contains information about Nigeria, testing responsiveness across small, medium, and large screens">
+    <meta name="description" content="this page contain info about my country Nigeria, to test the responsiveness on small, medium and large screen">
     <meta name="author" content="Efe T. Erioamala">
-    <title>Country Page - Nigeria</title>
-    
+    <title>Country page</title>
     <link rel="stylesheet" href="styles/place.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <script src="scripts/place.js" defer></script>
-  </head>
-  
-  <body>
+</head>
+<body>
     <header>
-      <h1>Nigeria</h1>
+        <h1>Nigeria</h1>
     </header>
 
     <main>
-      <div class="hero">
-        <picture>
-          <source srcset="images/Nigeria-large.webp" media="(min-width: 1000px)">
-          <source srcset="images/Nigeria-medium.webp" media="(min-width: 500px)">
-          <img src="images/Nigeria-small.webp" alt="Nigerian Culture" width="500" height="250" loading="lazy">
-        </picture>
-      </div>
+        
+            <div class="hero"> 
 
-      <section class="data">
-        <h2>Data</h2>
-        <ul>
-          <li><strong>Area:</strong> 923,768 sq km</li>
-          <li><strong>Population:</strong> 206,139,589</li>
-          <li><strong>Capital:</strong> Abuja</li>
-          <li><strong>Languages:</strong> English (official), Hausa, Yoruba, Igbo, and others</li>
-          <li><strong>Currency:</strong> Nigerian Naira (NGN)</li>
-          <li><strong>Time Zone:</strong> UTC+1</li>
-          <li><strong>Calling Code:</strong> +234</li>
-          <li><strong>Internet TLD:</strong> .ng</li>
-        </ul>
-      </section>
+                <picture>
+                    <source srcset="images/Nigeria-large.webp" media="(min-width: 1000px)">
+                    <source srcset="images/Nigeria-medium.webp" media="(min-width: 500px)">
+                    <img src="images/Nigeria-small.webp" alt="Nigeria Culture" width="500" height="250">
+                </picture>
+            </div>
+        
 
-      <section class="weather">
-        <h2>Weather <span class="weather-icon">⛅</span></h2>
-        <p>Temperature: <span id="temperature"></span>°C</p>
-        <p>Wind Speed: <span id="windSpeed"></span> km/h</p>
-        <p>Wind Chill: <span id="windChill">N/A</span></p>
-      </section>
+        <section class="data">
+            <h2>Data</h2>
+            <ul>
+                <li><strong>Area:</strong> 923,768 sq km</li>
+                <li><strong>Population:</strong> 206,139,589</li>
+                <li><strong>Capital:</strong> Abuja</li>
+                <li><strong>Languages:</strong> English (official), Hausa, Yoruba, Igbo, and others</li>
+                <li><strong>Currency:</strong> Nigerian Naira (NGN)</li>
+                <li><strong>Time Zone:</strong> UTC+1</li>
+                <li><strong>Calling Code:</strong> +234</li>
+                <li><strong>Internet TLD:</strong> .ng</li>
+            </ul>
+        </section>
+
+        <section class="weather">
+            <h2>Weather <span class="weather-icon">⛅</span></h2>
+            <p>Temperature: <span id="temperature"></span>&deg;C</p>
+            <p>Wind Speed: <span id="windSpeed"></span> km/h</p>
+            <p>Wind Chill: <span id="windChill">N/A</span></p>
+        </section>
     </main>
 
     <footer>
-      <p>
-        © <span id="year"></span>💫Efeoghene Tamarakuro Eriomala 💫 Delta, Nigeria<br>
-        Last Updated: <span id="lastModified"></span>
-      </p>
+        <p>&copy; <span id="year"></span> 💫Efeoghene Tamarakuro Eriomala 💫 Nigeria <br>
+            Last Updated: <span id="lastModified"></span></p>
     </footer>
-  </body>
-</html
+</body>
+</html>
