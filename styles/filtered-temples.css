@@ -141,7 +141,7 @@ footer p {
         background-color: #333;
         width: 100%;
         text-align: center;
-        transition: o.3s;
+        transition: 0.3s;
         height: 50vh;
         color: white;
     }
