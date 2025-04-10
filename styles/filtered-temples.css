@@ -44,7 +44,7 @@ nav li button{
         font-size: 1rem;
         list-style: none;
         border: none;
-        background-color: #333;
+        background-color: #333333;
         /* background:none; */
         cursor: pointer;
         transition: all 0.3s ease;
@@ -52,7 +52,7 @@ nav li button{
         
 }
 
-nav li button:hover {
+nav li button a:hover {
     color: #007bff;
 }
 
