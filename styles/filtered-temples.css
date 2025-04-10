@@ -36,14 +36,18 @@ nav ul {
     padding: 0;
 }
 
-nav li button{
-    margin: 0 10px;
+nav li {
+    margin: 0 20px;
+    width: 50px;
+    text-align: center;
     text-decoration: none;
+    list-style-type: none;
+    border-radius: 4px;
         color:#fff;
         font-weight: bold;
         font-size: 1rem;
         list-style: none;
-        border: none;
+        border: 3px solid rgb(71, 67, 67);
         background-color: #333333;
         /* background:none; */
         cursor: pointer;
@@ -52,8 +56,9 @@ nav li button{
         
 }
 
-nav li button a:hover {
-    color: #007bff;
+nav li:hover {
+    background-color: #f8f9fa;
+    color: black;
 }
 
 nav li button:active{
