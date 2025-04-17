@@ -142,6 +142,80 @@ form input {
     transform: scale(1.05);
 }
 
+.about-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/tech-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: var(--white);
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.about-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about-content {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.mission, .team, .values {
+    margin-bottom: 3rem;
+}
+
+.mission h2, .team h2, .values h2 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 5px solid #0a07af ;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.team-card {
+    text-align: center;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+}
+
+.team-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.team-card h3 {
+    font-size: 1.5rem;
+    color: #0a07af;
+}
+
+.team-card p {
+    color: #0a07af;
+    font-size: 1rem;
+}   
+
 @media (min-width:320px)and (max-width: 600px) {
     .gallery img{
         width:100% ;
@@ -244,7 +318,7 @@ nav ul li a.active {
 }
 
 .gallery-grid img {
-    width: 100%;
+    width: 500px;
     height: 250px;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
@@ -310,7 +384,7 @@ nav ul li a.active {
 }
 
 .contact button:hover {
-    background:     ;
+    background:    blue ;
     /* blue */
 }
 

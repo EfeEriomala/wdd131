@@ -1,14 +1,14 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #12acdb;
+    background-color: #FFFFFF;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #0a07af;
-    color: #FFF;
+    background-color: #F4C2C2;
+    color: #7D7D7D;
     text-align: center;
     padding: 20px;
     font-family: 'Playfair Display', serif;
@@ -16,10 +16,10 @@ header {
 
 nav ul {
     list-style: none;
-    padding: 10px;
+    padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #0a07af;
+    background-color: #F4C2C2;
 }
 
 nav ul li {
@@ -28,7 +28,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #FFF;
+    color: #7D7D7D;
     font-weight: bold;
 }
 
@@ -41,30 +41,23 @@ section {
     background-color: #F9F9F9;
 }
 
-h1{
-    color: #FFF;
-}
+h1,
 h2 {
     font-family: 'Playfair Display', serif;
-    color: #0a07af;
+    color: #F4C2C2;
 }
 
-#wireframe{
-  
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
-    margin-top: 1rem;
+button {
+    background-color: #7D7D7D;
+    color: #F4C2C2;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
 }
-#wireframe img{
-    width: 100%;
-}
 
-
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color:  #0a07af;
-    color: #fff;
+button:hover {
+    background-color: #6B6B6B;
 }

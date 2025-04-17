@@ -1,14 +1,14 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #12acdb;
+    background-color: #FFFFFF;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #0a07af;
-    color: #FFF;
+    background-color: #800080;
+    color: #FFD700;
     text-align: center;
     padding: 20px;
     font-family: 'Playfair Display', serif;
@@ -19,7 +19,7 @@ nav ul {
     padding: 10px;
     display: flex;
     justify-content: center;
-    background-color: #0a07af;
+    background-color: #800080;
 }
 
 nav ul li {
@@ -28,7 +28,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #FFF;
+    color: #FFD700;
     font-weight: bold;
 }
 
@@ -42,29 +42,14 @@ section {
 }
 
 h1{
-    color: #FFF;
+    color: #FFD700;
 }
 h2 {
     font-family: 'Playfair Display', serif;
-    color: #0a07af;
-}
-
-#wireframe{
-  
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
-    margin-top: 1rem;
-}
-#wireframe img{
-    width: 100%;
+    color: #800080;
 }
 
 
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color:  #0a07af;
-    color: #fff;
+footer{
+    text-align: center
 }

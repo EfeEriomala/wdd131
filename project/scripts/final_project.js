@@ -39,10 +39,10 @@ document.getElementById("bookAppointment").addEventListener("click", function() 
 
 // Object and array demonstration
 const services = [
-    { name: "Wig Sales"},
-    { name: "Hair Styling"},
-    { name: "Hair Treatments"},
-    { name: "Braiding & Weaving"}
+    { name: "Web Development"},
+    { name: "Cyber Security"},
+    { name: "Graphics Deisgn"},
+    { name: "Data Analysis"}
 ];
 
 const servicesContainer = document.querySelector(".services ul");
